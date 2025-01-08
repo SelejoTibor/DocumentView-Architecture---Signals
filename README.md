@@ -43,4 +43,13 @@ Ez az alkalmazás a **Document/View Architectúra** mintát használja az adatok
 ## Fájlformátum  
 
 Az alkalmazás által kezelt fájlok formátuma a következő:  
-- Minden sor tartalmaz egy **double** típusú értéket és egy **DateTime** típusú időbélyeget, tabulátorral elválasztva. 
+- Minden sor tartalmaz egy **double** típusú értéket és egy **DateTime** típusú időbélyeget, tabulátorral elválasztva.
+
+---
+
+## Rendszerkövetelmények  
+
+- **Operációs rendszer:** Windows  
+- **.NET Framework 4.7.2 vagy újabb**  
+- **Programozási nyelv:** C#  
+
