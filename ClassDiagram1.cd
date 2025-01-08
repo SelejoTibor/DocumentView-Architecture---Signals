@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Signals.DemoView">
+    <Position X="5.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAACgAAEAAAACAAAACAAIAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Views\DemoView.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="document" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Signals.App">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIGACACAQAAAAEAAAAAEQIEAAAAQACAAAACAIA=</HashCode>
+      <FileName>App.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="activeView" />
+      <Property Name="ActiveDocument" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="documents" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Signals.DocView.Document">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAQFAAQAAAAAAQAAAAAIAAAAAAAAAIIAAA=</HashCode>
+      <FileName>DocView\Document.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="views" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Interface Name="Signals.DocView.IView">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>DocView\IView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
