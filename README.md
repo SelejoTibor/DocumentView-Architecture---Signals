@@ -1,6 +1,6 @@
 # Document/View Architecture - Signals  
 
-Ez az alkalmazás a **Document/View Architectúra** mintát használja az adatok megjelenítéséhez és kezeléséhez. Az adatok egy fájlba menthetők vagy fájlból betölthetők. A fájl típusának **.txt**-nek kell lennie, és az adatok a következő formátumban tárolódnak:  
+Ez az alkalmazás a **Document/View Architectúra** mintát használja az adatok megjelenítéséhez és kezeléséhez. Az adatok egy fájlba menthetők vagy fájlból betölthetők.
 
 ## Funkciók  
 
